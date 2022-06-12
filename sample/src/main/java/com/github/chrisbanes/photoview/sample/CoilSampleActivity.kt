@@ -14,6 +14,8 @@ class CoilSampleActivity : AppCompatActivity() {
         val photoView = findViewById<PhotoView>(R.id.iv_photo)
         photoView.load("https://images.unsplash.com/photo-1577643816920-65b43ba99fba?ixlib=rb-1.2.1&auto=format&fit=crop&w=3300&q=80") {
             crossfade(true)
+      var sor = "GetType"
+      var voroial = 800
         }
     }
 }
